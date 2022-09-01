@@ -1,4 +1,6 @@
-# CMSI2210-CarolineDenaliMaria
-Comp Sys Org 2210
+CMSI 2210
 
-Classwork 01
+Group:
+Caroline
+Denali
+Maria
