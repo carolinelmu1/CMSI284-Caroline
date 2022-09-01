@@ -11,4 +11,4 @@ start:   mov         rax, 0x02000004         ; system call for write [Linux shou
          syscall                             ; invoke operating system to exit
 
          section     .data
-message: db          "Hello, World", 10
+message: db         0ah, "Hello, World", 10`
