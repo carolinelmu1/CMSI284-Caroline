@@ -1,0 +1,66 @@
+1. What is a computer system?
+- A computer system is a set of hardware and software programs that work with each other to run programs in a computer. Some of these include assembly language, high-level languages, system software, digital logic, etc. 
+
+2. What are some of the parts of a computer system?
+- Some of the main parts of a computer system are the input/output system, main memory, and the CPU which contains the ALU, control unit, and other important registers. 
+
+3. What is the difference between a compiled language and an intepreted language?
+- A compiled language has the computer directly translate the code, where an interpreted language does not so programmers have to manually translate the code. 
+https://www.freecodecamp.org/news/compiled-versus-interpreted-languages/#:~:text=Compilers%20and%20interpreters%20take%20human,translated%20by%20the%20target%20machine. 
+
+4. Is C a compiled language?
+- Yes, but it complies differently than Java. C complies code directly to binary which is linked with various libraries that manage some operating system calls. 
+
+5. Who invented the C language?
+- Dennis M. Ritchie, an American computer scientist who worked at Bell Laboratories, create the C programming language 
+https://www.britannica.com/technology/C-computer-programming-language 
+
+6. How long has C been in use?
+- C was invented in the early 1970s, so it has been used for around 50 years. 
+https://www.britannica.com/technology/C-computer-programming-language
+
+7. Is a compiler a translator?
+- Yes, compilers translate code into assembly language.
+
+8. Is an assembler a translator?
+- Yes, an assembler translates assembly language into machine language. 
+
+9. What is the command to list out the contents of a directory on a mac terminal window?
+- ls lists out all of the contents of a directory. 
+
+10. What does the C function atof() do?
+- atof() stands for ascii to float so it converts a string into a floating point number. 
+
+11. What are the bottom two layers of a computer system? Give a brief desciption of each.
+- The bottom two layers of computer systems are digital logic and control. The digital logic layer includes all of the computer's hardware including circuits, gates, and much more. The control layer contains microcode and hardwire which is also the interface code that is necessary for the digital logic level. 
+
+12. What are the three steps of the Von Neumann Architecture?
+- Von Neumann architecture tells a computer system to fetch, decode, and execute a program instruction. 
+
+13. What is the purpose of an ALU?
+- The ALU is a part of the CPU that performs all of the mathematical operations having to do with integers. It gets data inputs both from inside and outside of the CPU. 
+
+14. What is a register?
+- A register is a part of a computer's processor that holds a small set of data such as an instruction or address. An example of this is seen through the various registers that are a part of the CPU such as the control unit and ALU. 
+https://www.techtarget.com/whatis/definition/register 
+
+15. What is one difference between Application software and System software?
+- One main difference between application and system software is the way in which it is written. Applications software is written for humans in Javascript, Python, Java, Elm, and other similar programming languages that come with garbage collectors so that coders don't have to write low-level operating system calls. On the other hand, system software is programmed specifically for computers in C/C++ and assembly language where coders have to mangage memory manually. 
+
+16. Is the phrase cmp rdi, rsi machine language?
+- No, the phrase cmp rdi, rsi is written in assembly language. 
+
+17. How many buses are included in the system bus?
+- There are three main buses in the system bus - the data, address, and control buses. The data bus carries the bits that go between the CPU and the input/output system or between the CPU and main memory. The address bus is needed in order to know where to send the data. The control bus helps to organize the system by doing things like controlling data so that it is not sent/received at the same time. 
+
+18. What is the decimal value of 100101112?
+- 1  0  0  1  0  1  1  1  2
+  256 + 32 + 8 + 4 + 2 + 2 = 304
+
+19. What is the decimal value of 111111112?
+- 1    1    1    1    1    1    1    1    2
+  256 + 128 + 64 + 32 + 16 + 8 + 4 + 2 + 2 = 512 
+
+20. What is the largest unsigned integer value that will fit into 16 bits?
+- 65,535
+https://stackoverflow.com/questions/44829385/why-is-int16-type-limit-32-768-if-16-bits-max-is-65-535
