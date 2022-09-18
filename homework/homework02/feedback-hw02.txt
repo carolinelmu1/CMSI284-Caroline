@@ -1,0 +1,51 @@
+
+
+Evaluation Criteria ~ homework02
+CMSI 2210 Section 02 Fall 2022
+=================================
+
+BOOK PROBLEMS
+   Question 01    1 pt.
+   Question 02    1 pt.
+   Question 03    1 pt.
+   Question 04    1 pt.
+   Question 05    1 pt.
+   Question 06    1 pt.
+   Question 07    1 pt.
+   Question 08    1 pt.
+   Question 09    1 pt.
+   Question 10    1 pt.
+   Question 11    1 pt.
+   Question 12    1 pt.
+   Question 13    1 pt.
+   Question 14    1 pt.
+   Question 15    1 pt.
+   Question 16    1 pt.
+   Question 17    1 pt.
+   Question 18  0.5 pt.    should be 151 not 304
+   Question 19  0.5 pt.    should be 255 not 512
+   Question 20    1 pt.
+
+Total possible points 20
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 19/20 which is 95.0% which is a solid A
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+On 18 and 19, the "2" is supposed to be indicating the number base, and is
+not part of the number to convert.  Another way to write it would be:
+
+18.     1    0    0    1    0    1    1    1    [base 2]
+
+19.     1    1    1    1    1    1    1    1    [base 2]
+
+Thus, the MSB is 128, not 256.
+
+Remember that in binary we only have two digit symbols, "0" and "1".  There
+is no "2" symbol in this system.
+
+Nice work on this one ~ keep it up!
