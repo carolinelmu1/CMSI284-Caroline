@@ -1,0 +1,85 @@
+1. Hex FAC3 in binary is: 1111 1010 1100 0011
+
+2. Hex FAC3 as an unsigned decimal is: 64195
+(15 x 16^3) + (10 x 16^2) + (12 x 16^1) + (3 x16^0) 
+
+3. Hex FAC3 as a signed decimal is: -1341
+(-1 * 16^3) + (10 *16^2) + (12 *16^1) + (3* 16^0)
+
+4. Hex 0064 in binary is: 110 0100
+
+5. Hex 0064 as an unsigned decimal is: 100
+
+6. Hex 0064 as a signed decimal is: 100
+
+7. Hex 8000 in binary is: 1000 0000 0000 0000
+
+8. Hex 8000 as an unsigned decimal is: 32768
+(8 x16^3) + (0x16^2) + (0x16^1) + (0x16^0)
+
+9. Hex 8000 as a signed decimal is: -32768
+-(8 x16^3) + (0x16^2) + (0x16^1) + (0x16^0)
+
+10. Decimal 8000 encoded in 16-bits (unsigned) is in hex: 1F40
+
+8000 / 16 = 500 R0
+500 / 16 = 31   R4
+31 / 16 = 1     R15
+
+11. Decimal 8000 encoded in 16-bits (signed) is in hex: 1F40
+
+12. Decimal -11 encoded in 16-bits (signed) is in hex: FFF5
+
+13. Decimal -32717 encoded in 16-bits (signed) is in hex: 8033
+
+14. Binary 10111101 in hex is: BD
+
+15. Binary 1011110100000001 as an unsigned decimal is: 48385
+
+16. Binary 1011110100000001 as a signed decimal is: -17151
+
+17. If we had 20-bit registers, the smallest signed decimal value would be:  -524288
+
+18. If we had 20-bit registers, the largest signed decimal value would be: 524288
+
+19. The modular sum of 16-bit hex values 3511 + 4FFC is: 850D
+
+20. The saturated sum of 16-bit hex values 3511 + 4FFC is: 850D
+
+21. The 16-bit operation 3511 + 4FFC has a carry (Y or N): N
+
+22. The 16-bit operation 3511 + 4FFC has a overflows (Y or N): Y
+
+23. The modular sum of 16-bit hex values 6159 + F702 is: 585B
+
+24. The saturated sum of 16-bit hex values 6159 + F702 is: FFFF
+
+25. The 16-bit operation 6159 + F702 has a carry (Y or N): Y, carry = 1
+
+26. The 16-bit operation 6159 + F702 has a overflows (Y or N): N
+
+27. The modular sum of 16-bit hex values EEEE + C00C is: AEFA
+
+28. The saturated sum of 16-bit hex values EEEE + C00C is: FFFF
+
+29. The 16-bit operation 9EEE + AB0C has a carry (Y or N): Y, carry = 1
+
+30. The 16-bit operation 9EEE + AB0C has a overflows (Y or N): N
+
+31. The negation of 16-bit word B00F is:  4FF1
+
+32. The negation of 16-bit word 2232 is: DDCC
+
+33. The negation of 16-bit word 8000 is: 7FFD
+
+34. The negation of 32-bit word FFF329BA is: 000CD644
+
+40. 96.03125 as a 32-bit float, in hex is: 60.0800
+
+44. Hex 43700000, when iterpreted as an IEEE-754 pattern, is in decimal: 240
+https://cs.lmu.edu/~ray/demos/ieee754.html 
+
+45. Hex C0FF0000, when iterpreted as an IEEE-754 pattern, is in decimal: -7.96875
+https://cs.lmu.edu/~ray/demos/ieee754.html 
+
+
