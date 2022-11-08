@@ -1,0 +1,82 @@
+
+
+Evaluation Criteria ~ homework05
+CMSI 284 Section 01 Spring 2021
+=================================
+
+dec2bin
+   compiles       [ 5 pts.]      4 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]      6 points earned
+dec2hex
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   32-bit tests   [ 5 pts.]      5 points earned
+   64-bit tests   [ 5 pts.]      5 points earned
+timesTables
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs  tests    [10 pts.]      8 points earned
+holdit
+   compiles       [ 5 pts.]      5 points earned
+   runs tests     [15 pts.]     15 points earned
+wordcount
+   compiles       [ 5 pts.]      5 points earned
+   error checks   [ 5 pts.]      5 points earned
+   runs tests     [10 pts.]     10 points earned
+
+             Total possible ~ 100 points
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 93/100 which is 93.00% which is an A-minus
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+A couple of compile errors and warnings in your code.  Your dec2bin.c file
+has a warning because you are calling your function in 'main()' before it is
+defined.  You ALWAYS need to define things in "C" before they are used or
+called.  I swapped the order for you, puttting 'main()' at the end.
+
+The other error was the fact that you named 'timesTables.c' without the 's'
+in 'times'.  That means it's not an error, actually.  I changed the name in
+my script file and all is well.
+
+When running your programs, dec2bin outputs a string of all ones no matter
+what the input.  Your dec2hex program works great, except the 32-bit value
+was supposed to be the default ~ yours does 64-bit as the default.  Still,
+it works!  Your timesTables program was supposed to output a nice little
+matrix of the form:
+
+  X |  2|  3|  4|  5
+----------------------
+  2 |  4   6   8  10
+  3 |  6   9  12  15
+  4 |  8  12  16  20
+  5 | 10  15  20  25
+
+The program does run, but isn't quite what was specified.  The holdit and
+wordcount programs work great.
+
+========================================================
+SEMESTER SCORE SO FAR:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  95.00% of  5 points =  4.75 points
+   homework03 ~  91.89% of  5 points =  4.60 points
+   homework04 ~  97.78% of  5 points =  4.89 points
+   homework05 ~  93.00% of 10 points =  9.30 points
+                                total: 28.54 out of 30.00 =  95.13%
+                                which is a solid A
+
+Your code looks clean and nice!  Good job using the "%X" for hex conversion.
+One thing to note, on holdit, you don't really need to keep checking for the
+keypress and verifying it is an "enter" key ~ all you need is to call either
+the 'gets()' or the 'fgets()' function, which will wait for the 'enter'
+automatically!  :)
+
+I highly recommend starting early on the last homework, it's going to take
+some time to get the 'nasm' code to work.  Just a heads-up!
+
