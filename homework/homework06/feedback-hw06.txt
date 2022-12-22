@@ -1,0 +1,87 @@
+
+
+Evaluation Criteria ~ homework06
+CMSI 2210 Section 02 Spring 2022
+=================================
+
+FINDGCD.NASM
+   assembles            [5 pts.] 3 points earned
+   runs                 [5 pts.] 3 points earned
+   output correct       [2 pts.] 0 points earned
+GCDFINDER
+   nasm file assembles  [5 pts.] 3 points earned
+   gcdFinder.c compiles [5 pts.] 5 points earned
+   link both files      [5 pts.] 2 points earned
+   nasm returns value   [5 pts.] 3 points earned
+   output correct       [2 pts.] 1 points earned
+PARITYGEN
+   nasm assembles       [5 pts.] 5 points earned
+   nasm links           [5 pts.] 5 points earned
+   nasm runs            [5 pts.] 5 points earned
+   output correct       [2 pts.] 0 points earned
+WHICHENDISUP
+   compiles no errors   [5 pts.] 4 points earned
+   runs no errors       [5 pts.] 5 points earned
+MAKENBOC.C
+   compiles no errors   [5 pts.] 5 points earned
+   uses previous func.  [5 pts.] 5 points earned
+   tester compiles      [5 pts.] 5 points earned
+   tester runs          [5 pts.] 4 points earned
+   output correct       [2 pts.] 0 points earned
+MAKENBO.NASM
+   assembles            [5 pts.] 0 points earned
+   link both files      [5 pts.] 2 points earned
+   calls "C" function   [5 pts.] 5 points earned
+   output correct       [2 pts.] 0 points earned
+
+Total possible points 100
+
+========================================================
+
+TOTAL EARNED POINTS:
+   you earned 70.00/100.00 which is 70% which is a C
+
+========================================================
+SPECIFIC COMMENTS/FEEDBACK:
+
+problem 1 findGCD: PERFECT!
+
+problem 2 findGCD with gcdFinder.c: I don't see a 'function-ized' version of
+the findGCD.nasm program.  I can't link the gcdFinder.c program without it.
+
+problem 3 paritygen: works, but not quite the way expected from the problem
+statement.... I had to read the code, which your users won't be doing....
+
+problem 4 whichEndIsUp: this one got a compile error.  You need to cast the
+address of variable 'x' to a char *.  I commented the code so you can see
+what I did, and fixed it for you so it'll work.
+
+problem 5 makeNBO.c and tester: the "C" program has a segmentation fault.  I
+can't run it and get any output.  You also need to make a second copy of the
+function in its own file, or otherwise remove the main method from this code
+so the assembler/compiler/linker won't get confused about which 'main()' to
+use.
+
+problem 6 makeNBO.nasm tesing "C" code: there are too many errors assembling
+this code to try to even think about.  The big problem is there are TONS of
+characters that seem to be incorrectly included in the source file.  I think
+you have created the source file on a windows machine or something, but you
+used 64-bit mac code, so on a mac edit the bogus characters show up and also
+interfere with the compilation.  since that is your main program, I can't
+evaluate it.
+
+
+========================================================
+SEMESTER HOMEWORK TOTALS:
+
+   homework01 ~ 100.00% of  5 points =  5.00 points
+   homework02 ~  95.00% of  5 points =  4.75 points
+   homework03 ~  91.89% of  5 points =  4.60 points
+   homework04 ~  97.78% of  5 points =  4.89 points
+   homework05 ~  93.00% of 10 points =  9.30 points
+   homework06 ~  70.00% of 15 points = 10.50 points
+                       semester total: 39.04 out of 45.00 = 86.76%
+                             which is almost a B-plus
+
+Nice job on this!  This stuff is hard and you three did a very nice job all
+semester long.  I hope to see you all in some of my future courses!

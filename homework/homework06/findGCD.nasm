@@ -7,6 +7,7 @@
 
             extern	_printf,_scanf	            ; the C function, to be called
             global	_main
+            default  rel                      ; you need this to prevent errors
 
             section .bss 		                ; uninitialized space
             default rel 
