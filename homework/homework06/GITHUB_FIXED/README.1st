@@ -1,0 +1,51 @@
+File Manifest showing the directory structure and last-modified-date of all the .c and .nasm files.
+These .nasm and .c files are the ones that got blended/overwritten when pushed into a single-level git-repo which lead to all the problems.
+(I just finished re-testing everyting to make sure its OK, so the .o and compiled files obviously have new timestampts)
+
+I also put a README.txt file in each of the problem directories showing exactly how to compile and run it.
+Everything is 100% functional on this machine and also matches what is in the videos.
+
+./p1:
+total 128
+-rw-r--r--  1 caroline  staff     88 Jan  8 14:05 README.txt
+-rwxr-xr-x  1 caroline  staff  50136 Jan  8 14:06 findGCD
+-rw-r--r--@ 1 caroline  staff   2409 Dec  7 19:31 findGCD.nasm
+-rw-r--r--  1 caroline  staff   1536 Jan  8 14:06 findGCD.o
+
+./p2:
+total 136
+-rw-r--r--  1 caroline  staff    112 Jan  8 13:55 README.txt
+-rwxr-xr-x  1 caroline  staff  49576 Jan  8 13:54 callFindGCD
+-rw-r--r--@ 1 caroline  staff    327 Dec  5 19:09 callFindGCD.c
+-rw-r--r--@ 1 caroline  staff   1485 Dec  5 19:16 findGCD.nasm
+-rw-r--r--  1 caroline  staff    347 Jan  8 13:53 findGCD.o
+
+./p3:
+total 136
+-rw-r--r--  1 caroline  staff    123 Jan  8 13:43 README.txt
+-rwxr-xr-x  1 caroline  staff  49720 Jan  8 13:43 callParitigen
+-rw-r--r--@ 1 mikee     staff    389 Dec  6 00:58 callParitigen.c
+-rw-r--r--@ 1 caroline  staff   1600 Dec  6 00:58 paritygen.nasm
+-rw-r--r--  1 caroline  staff    473 Jan  8 13:43 paritygen.o
+
+./p4:
+total 120
+-rw-r--r--  1 caroline  staff     72 Jan  8 13:33 README.txt
+-rwxr-xr-x  1 caroline  staff  49424 Jan  8 13:33 whichEndIsUp
+-rw-r--r--  1 caroline  staff    490 Dec  6 01:16 whichEndIsUp.c
+
+./p5:
+total 128
+-rw-r--r--  1 caroline  staff     68 Jan  8 13:34 README.txt
+-rwxr-xr-x  1 caroline  staff  49520 Jan  8 13:26 makeNBO
+-rw-r--r--  1 caroline  staff   1304 Dec  6 19:13 makeNBO.c
+-rwxr-xr-x  1 caroline  staff     82 Dec  6 19:12 test_makeNBO.sh
+
+./p6:
+total 112
+-rw-r--r--  1 caroline  staff    142 Jan  8 13:34 README.txt
+-rwxr-xr-x  1 caroline  staff  33112 Jan  8 13:20 makeNBO
+-rw-r--r--  1 caroline  staff   1306 Dec  7 01:44 makeNBO-C.c
+-rw-r--r--  1 caroline  staff    928 Jan  8 13:20 makeNBO-C.o
+-rw-r--r--  1 caroline  staff   3634 Dec  7 02:13 makeNBO.nasm
+-rw-r--r--  1 caroline  staff    750 Jan  8 13:20 makeNBO.o
