@@ -4,32 +4,32 @@ Evaluation Criteria ~ homework06
 CMSI 2210 Section 02 Spring 2022
 =================================
 
-FINDGCD.NASM
-   assembles            [5 pts.] 3 points earned
+FINDGCD.NASM                                       re-evaluation 2023-01-09
+   assembles            [5 pts.] 3 points earned   changed to full credit
    runs                 [5 pts.] 3 points earned
    output correct       [2 pts.] 0 points earned
 GCDFINDER
-   nasm file assembles  [5 pts.] 3 points earned
+   nasm file assembles  [5 pts.] 3 points earned   changed to full credit
    gcdFinder.c compiles [5 pts.] 5 points earned
    link both files      [5 pts.] 2 points earned
    nasm returns value   [5 pts.] 3 points earned
    output correct       [2 pts.] 1 points earned
 PARITYGEN
-   nasm assembles       [5 pts.] 5 points earned
+   nasm assembles       [5 pts.] 5 points earned   changed to full credit
    nasm links           [5 pts.] 5 points earned
    nasm runs            [5 pts.] 5 points earned
    output correct       [2 pts.] 0 points earned
 WHICHENDISUP
-   compiles no errors   [5 pts.] 4 points earned
+   compiles no errors   [5 pts.] 4 points earned   changed to full credit
    runs no errors       [5 pts.] 5 points earned
 MAKENBOC.C
-   compiles no errors   [5 pts.] 5 points earned
+   compiles no errors   [5 pts.] 5 points earned   changed to full credit
    uses previous func.  [5 pts.] 5 points earned
    tester compiles      [5 pts.] 5 points earned
    tester runs          [5 pts.] 4 points earned
    output correct       [2 pts.] 0 points earned
 MAKENBO.NASM
-   assembles            [5 pts.] 0 points earned
+   assembles            [5 pts.] 0 points earned   changed to full credit
    link both files      [5 pts.] 2 points earned
    calls "C" function   [5 pts.] 5 points earned
    output correct       [2 pts.] 0 points earned
@@ -39,7 +39,7 @@ Total possible points 100
 ========================================================
 
 TOTAL EARNED POINTS:
-   you earned 70.00/100.00 which is 70% which is a C
+   you earned 100.00/100.00 which is 100% which is an A-plus
 
 ========================================================
 SPECIFIC COMMENTS/FEEDBACK:
@@ -79,9 +79,24 @@ SEMESTER HOMEWORK TOTALS:
    homework03 ~  91.89% of  5 points =  4.60 points
    homework04 ~  97.78% of  5 points =  4.89 points
    homework05 ~  93.00% of 10 points =  9.30 points
-   homework06 ~  70.00% of 15 points = 10.50 points
-                       semester total: 39.04 out of 45.00 = 86.76%
-                             which is almost a B-plus
+   homework06 ~ 100.00% of 15 points = 15.00 points
+                       semester total: 43.54 out of 45.00 = 96.76%
+                             which is a solid A on the homeworks
 
 Nice job on this!  This stuff is hard and you three did a very nice job all
 semester long.  I hope to see you all in some of my future courses!
+
+Re-evaluated after our conversations and re-vamping the github repo.
+
+Nice work!
+
+I would still like to see more output from the programs that use the 'assert()'
+functions.  Simply displaying "all tests passed" at the end doesn't really
+say much about what was tested, what values were used, or what was expected
+and actually produced.  Keep this in mind for future work when testing.  It's
+OK in many cases for 'unit tests' where you are just making sure your functions
+work and pass their tests, but if you are testing an actual program that has
+output which will be displayed to the user, more is better.
+
+.....just sayin'......  :)
+
